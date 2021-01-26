@@ -1,0 +1,157 @@
+@media (max-width: 1400px) {
+
+    /*.container {*/
+    /*    max-width: 970px;*/
+    /*}*/
+    .hero_title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .container {
+        max-width: 740px;
+    }
+
+    .story_heading {
+        font-size: 16px;
+    }
+    .footer_top {
+        height: 400px;
+
+    }
+    .socials {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 520px;
+    }
+
+    .hero_title {
+        font-size: 20px
+    }
+
+    .header_menu_item {
+        font-size: 10px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+
+    .cap-title {
+        margin-bottom: 10px;
+    }
+
+    .col-8{
+        width: 100%;
+    }
+    .story_info {
+        margin-bottom: 20px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .lower {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    .cap-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .wrapper_row {
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer_top {
+        display: flex;
+        flex-wrap: wrap;
+        height: 550px;
+    }
+    .row_wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .links {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        max-width: 520px;
+    }
+
+    .hero_title {
+        font-size: 17px;
+        letter-spacing: 2px;
+
+    }
+
+    .story_info {
+        width: 370px;
+    }
+    .about_info_item p{
+        font-size: 12px;
+    }
+
+    .about_info_item {
+        height: 200px;
+    }
+
+    .hero-content {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .get_in_touch_title {
+        font-size: 18px;
+    }
+
+    .hero_desc {
+        max-width: 300px;
+    }
+
+    .header_menu_item {
+        font-size: 10px;
+    }
+
+    .newsletter_form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .newsletter_form_input{
+        width: 230px;
+    }
+
+    .footer_top {
+        height: 600px;
+    }
+    .socials {
+        margin-left: 120px;
+    }
+}
